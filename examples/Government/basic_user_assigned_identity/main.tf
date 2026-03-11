@@ -4,7 +4,7 @@
 # Terraform module for deploying a basic App Configuration with User Assigned Identity in Azure. 
 
 module "mod_app_configuration" {
-  #source  = "azurenoops/overlays-app-configuration/azurerm"
+  #source  = "github.com/POps-Rox/tf-az-overlays-appconfiguration"
   #version = "x.x.x"
   source = "../../.."
 
