@@ -8,9 +8,9 @@
 
 variable "app_configuration_keys" {
   description = "A list of keys to create in the App Configuration"
-  type        = map(object({
+  type = map(object({
     label = string
     value = string
   }))
-  default     = null 
+  default = null
 }

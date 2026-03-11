@@ -2,7 +2,7 @@
 # Licensed under the MIT License.
 
 output "app_configuration_id" {
-  value = module.mod_app_configuration.id  
+  value = module.mod_app_configuration.id
 }
 
 output "app_configuration_name" {

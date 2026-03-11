@@ -56,7 +56,7 @@ variable "public_network_access_enabled" {
 variable "replica_name" {
   description = "The name of the replica."
   type        = string
-  default     = "secondary"  
+  default     = "secondary"
 }
 
 variable "replica_location" {

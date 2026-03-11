@@ -57,5 +57,5 @@ variable "existing_principal_id" {
   description = "The principal ID of an existing service principal to use for the App Configuration Data Owner role assignment. If not provided, the current service principal will be used."
   type        = string
   default     = null
-  
+
 }

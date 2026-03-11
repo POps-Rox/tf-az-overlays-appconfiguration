@@ -33,5 +33,5 @@ variable "custom_resource_group_name" {
 variable "custom_app_configuration_name" {
   description = "The name of the custom app configuration to create. If not set, the name will be generated using the `org_name`, `workload_name`, `deploy_environment` and `environment` variables."
   type        = string
-  default     = null  
+  default     = null
 }

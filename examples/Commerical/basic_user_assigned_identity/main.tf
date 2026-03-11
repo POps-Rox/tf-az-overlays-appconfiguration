@@ -21,7 +21,7 @@ module "mod_app_configuration" {
   environment                  = var.environment
 
   # User Assigned Identity Configuration
-  identity_type = "UserAssigned"
+  identity_type          = "UserAssigned"
   existing_principal_ids = ["${azurerm_user_assigned_identity.app-config-id.principal_id}"]
 
   # Adding additional TAG's to your Azure resources
