@@ -25,7 +25,7 @@ provider "azurerm" {
 }
 
 module "overlays-app-configuration" {
-  source  = "azurenoops/overlays-app-configuration/azurerm"
+  source  = "POps-Rox/tf-az-overlays-app-configuration/azurerm"
   version = "x.x.x"
   
   location = "usgovvirginia"
@@ -99,7 +99,7 @@ provider "azurerm" {
 }
 
 module "overlays-app-configuration" {
-  source  = "azurenoops/overlays-app-configuration/azurerm"
+  source  = "POps-Rox/tf-az-overlays-app-configuration/azurerm"
   version = "x.x.x"
   
   create_app_config_resource_group = true
@@ -120,7 +120,7 @@ To enable purge protection for the App Configuration, set the `enable_purge_prot
 
 ```terraform
 module "overlays-app-configuration" {
-  source  = "azurenoops/overlays-app-configuration/azurerm"
+  source  = "POps-Rox/tf-az-overlays-app-configuration/azurerm"
   version = "x.x.x"
   
   create_app_config_resource_group = true
@@ -146,7 +146,7 @@ To configure soft deletetion days for the App Configuration, set the `soft_delet
 
 ```terraform
 module "overlays-app-configuration" {
-  source  = "azurenoops/overlays-app-configuration/azurerm"
+  source  = "POps-Rox/tf-az-overlays-app-configuration/azurerm"
   version = "x.x.x"
   
   create_app_config_resource_group = true
@@ -172,7 +172,7 @@ To use a user assigned identity with the App Configuration module, set the `iden
 
 ```terraform
 module "overlays-app-configuration" {
-  source  = "azurenoops/overlays-app-configuration/azurerm"
+  source  = "POps-Rox/tf-az-overlays-app-configuration/azurerm"
   version = "x.x.x"
   
   create_app_config_resource_group = true
@@ -198,7 +198,7 @@ To use encryption with the App Configuration module, set the `existing_key_vault
 
 ```terraform
 module "overlays-app-configuration" {
-  source  = "azurenoops/overlays-app-configuration/azurerm"
+  source  = "POps-Rox/tf-az-overlays-app-configuration/azurerm"
   version = "x.x.x"
   
   create_app_config_resource_group = true
