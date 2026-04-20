@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 module "mod_app_configuration" {
-  source  = "azurenoops/overlays-app-configuration/azurerm"
+  source  = "POps-Rox/overlays-app-configuration/azurerm"
   version = "x.x.x"
 
   depends_on = [
